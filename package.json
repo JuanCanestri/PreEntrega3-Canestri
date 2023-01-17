@@ -1,0 +1,24 @@
+{
+  "name": "juan",
+  "version": "1.0.0",
+  "description": "pre entrega 3 coder house canestri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCanestri/PreEntrega3-Canestri.git"
+  },
+  "author": "juan canestri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanCanestri/PreEntrega3-Canestri/issues"
+  },
+  "homepage": "https://github.com/JuanCanestri/PreEntrega3-Canestri#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
