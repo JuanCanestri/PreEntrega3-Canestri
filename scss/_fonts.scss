@@ -1,0 +1,19 @@
+// Import
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&family=Open+Sans:wght@300;400&family=Roboto:wght@400;700&display=swap');
+
+// Fonts
+$mainFont: 'Open Sans', sans-serif;
+$secondaryFont: 'Nunito', sans-serif;
+$generalFont: 'Roboto', sans-serif;
+
+// Size
+$fontXL: 1em;
+$fontL: 0.75em;
+$fontM: 0.5em;
+$fontS: 0.25em;
+
+// Mixin
+@mixin font($size, $color){
+    font-size: $size;
+    color: $color;
+}

@@ -1,0 +1,15 @@
+
+#botonera{
+    @include font(1.1em, black);
+    background-color: $mainColor;
+    box-sizing: border-box;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    &:hover{
+        cursor: pointer;
+        transition: all 0.25s;
+        color: $keyColor;
+    }    
+}
