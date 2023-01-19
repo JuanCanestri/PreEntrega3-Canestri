@@ -3,4 +3,8 @@
     text-align: center;
     font-family: $generalFont;
     color: $secondaryColor;
+    margin: 50px;
+}
+h1{
+    @include font(1em, $secondaryColor);
 }
